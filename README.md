@@ -22,36 +22,37 @@
 
 ## 📌 Overview
 
-This repository serves as a personal journey and open-source handbook for mastering Data Structures and Algorithms through **Striver's A2Z DSA Sheet**. Every problem is solved with:
-- **Low-Level C Implementation**: Focuses on raw pointers, manual memory allocation, and hardware-close mechanics.
-- **Modern C++ Implementation**: Leverages STL containers, algorithms, lambdas, and clean idiomatic C++17/20.
-- **Complexity Analysis**: Explicit Best/Average/Worst Time Complexity and Space Complexity.
-- **Problem Intuition**: Clean step-by-step markdown explanations.
+This repository is an open-source handbook containing solutions for **Striver's A2Z DSA Sheet**.
+Each problem includes:
+- **Low-Level C Implementation**: Raw memory manipulation, pointer arithmetic, zero-overhead execution.
+- **Modern C++17 Implementation**: Idiomatic STL containers, iterators, and standard algorithms.
+- **Complexity Analysis**: Big-O Time Complexity and Auxiliary Space Complexity breakdown.
+- **Problem Intuition**: Comprehensive step-by-step markdown explanations.
 
 ---
 
-## 🗺️ Curriculum Roadmap (Step 01 to Step 18)
+## 🗺️ Curriculum Roadmap & Current Progress
 
-| Step | Topic | Sub-topics | Status |
+| Step | Topic | Sub-topics & Solved Problems | Status |
 | :---: | :--- | :--- | :---: |
-| **01** | [Learn the Basics](./Step-01-Learn-the-basics/) | Syntax, Patterns, STL, Basic Maths, Recursion, Hashing | 🟡 In Progress |
-| **02** | [Important Sorting Techniques](./Step-02-Learn-Important-Sorting-Techniques/) | Selection, Bubble, Insertion, Merge Sort, Quick Sort | 🟡 In Progress |
-| **03** | [Solve Problems on Arrays](./Step-03-Solve-Problems-on-Arrays/) | Easy, Medium (Kadane's, Dutch Flag), Hard (Pascal, 3Sum, 4Sum) | 🟡 In Progress |
-| **04** | [Binary Search](./Step-04-Binary-Search/) | 1D Arrays, Search Space / Answers, 2D Matrices | ⚪ Queued |
-| **05** | [Strings](./Step-05-Strings/) | Basic & Easy, Medium Problems | ⚪ Queued |
-| **06** | [Learn LinkedList](./Step-06-Learn-LinkedList/) | 1D LinkedList, Doubly LinkedList, Medium & Hard Problems | ⚪ Queued |
-| **07** | [Recursion & Backtracking](./Step-07-Recursion/) | Subsequences Pattern, Combinations, Permutations | ⚪ Queued |
-| **08** | [Bit Manipulation](./Step-08-Bit-Manipulation/) | Fundamentals, Interview Problems, Power Sets | ⚪ Queued |
-| **09** | [Stack and Queues](./Step-09-Stack-and-Queues/) | Monotonic Stack, Prefix/Infix/Postfix, LRU Cache | ⚪ Queued |
+| **01** | [Learn the Basics](./Step-01-Learn-the-basics/) | Patterns (1-22), Count Digits, Reverse Number, Palindrome, GCD, Armstrong, Prime, Fibonacci | 🟢 Active |
+| **02** | [Sorting Techniques](./Step-02-Learn-Important-Sorting-Techniques/) | Selection Sort, Bubble Sort, Insertion Sort, Merge Sort, Quick Sort | 🟢 Active |
+| **03** | [Arrays (Easy, Medium, Hard)](./Step-03-Solve-Problems-on-Arrays/) | Largest, 2nd Largest, Remove Duplicates, Move Zeros, Missing Number, Single Number, Kadane's, Dutch National Flag (012), Majority Element, Stock Buy/Sell, 2Sum, Rearrange by Sign, Next Permutation, Leaders in Array, Pascal Triangle, 3Sum | 🟢 Active |
+| **04** | [Binary Search](./Step-04-Binary-Search/) | Standard BS, 1D Array BS, Virtual 2D BS, BS on Answers | 🟢 Active |
+| **05** | [Strings](./Step-05-Strings/) | Reverse Words in a String, Anagrams, Isomorphic Strings | 🟢 Active |
+| **06** | [LinkedList](./Step-06-Learn-LinkedList/) | 1D LinkedList Traversal, Middle of LL (Tortoise & Hare), Doubly LinkedList | 🟢 Active |
+| **07** | [Recursion & Backtracking](./Step-07-Recursion/) | Subsequences Pattern, Combinations, Permutations | 🟡 In Progress |
+| **08** | [Bit Manipulation](./Step-08-Bit-Manipulation/) | Fundamentals, Power of Two, Bitmasking | 🟡 In Progress |
+| **09** | [Stack and Queues](./Step-09-Stack-and-Queues/) | Next Greater Element (Monotonic Stack), Valid Parentheses, Min Stack | 🟢 Active |
 | **10** | [Sliding Window & Two Pointer](./Step-10-Sliding-Window-and-Two-Pointer/) | Constant & Dynamic Windows, Longest Substring | ⚪ Queued |
-| **11** | [Heaps / Priority Queues](./Step-11-Heaps/) | Min/Max Heap, Kth Elements, Median from Data Stream | ⚪ Queued |
-| **12** | [Greedy Algorithms](./Step-12-Greedy-Algorithms/) | Activity Selection, Job Sequencing, Fractional Knapsack | ⚪ Queued |
-| **13** | [Binary Trees](./Step-13-Binary-Trees/) | Traversals (In/Pre/Post/Level), Views, Path Sums | ⚪ Queued |
-| **14** | [Binary Search Trees (BST)](./Step-14-Binary-Search-Trees/) | Valid BST, LCA, Kth Smallest, BST Iterator | ⚪ Queued |
-| **15** | [Graphs](./Step-15-Graphs/) | BFS/DFS, Topo Sort, Dijkstra, Bellman-Ford, Floyd-Warshall, DSU, MST | ⚪ Queued |
-| **16** | [Dynamic Programming (DP)](./Step-16-Dynamic-Programming/) | 1D DP, 2D Grid DP, Subsequences, Strings, Stocks, LIS, MCM | ⚪ Queued |
-| **17** | [Tries](./Step-17-Tries/) | Prefix Tree, Autocomplete, Max XOR Queries | ⚪ Queued |
-| **18** | [Advanced Strings](./Step-18-Strings-Advanced/) | KMP Algorithm, Z-Algorithm, Rabin-Karp | ⚪ Queued |
+| **11** | [Heaps / Priority Queues](./Step-11-Heaps/) | Min/Max Heap, Kth Elements | ⚪ Queued |
+| **12** | [Greedy Algorithms](./Step-12-Greedy-Algorithms/) | Activity Selection, Fractional Knapsack | ⚪ Queued |
+| **13** | [Binary Trees](./Step-13-Binary-Trees/) | Inorder, Preorder, Postorder Traversals, Max Depth, Invert Tree, Diameter | 🟢 Active |
+| **14** | [Binary Search Trees (BST)](./Step-14-Binary-Search-Trees/) | Valid BST, LCA, Kth Smallest | ⚪ Queued |
+| **15** | [Graphs](./Step-15-Graphs/) | BFS/DFS, Topo Sort, Dijkstra, DSU, MST | ⚪ Queued |
+| **16** | [Dynamic Programming (DP)](./Step-16-Dynamic-Programming/) | 1D DP (Climbing Stairs, House Robber), 2D Grid DP, Subsequences, MCM | 🟢 Active |
+| **17** | [Tries](./Step-17-Tries/) | Prefix Tree, Autocomplete | ⚪ Queued |
+| **18** | [Advanced Strings](./Step-18-Strings-Advanced/) | KMP Algorithm, Z-Algorithm | ⚪ Queued |
 
 ---
 
@@ -59,54 +60,14 @@ This repository serves as a personal journey and open-source handbook for master
 
 ### C Solutions
 `ash
-# Compile using GCC
 gcc solution.c -o solution
-
-# Run executable
-# Windows:
-.\solution.exe
-
-# Linux / macOS:
 ./solution
 `
 
 ### C++ Solutions
 `ash
-# Compile using G++ (C++17 standard)
 g++ -std=c++17 solution.cpp -o solution
-
-# Run executable
-# Windows:
-.\solution.exe
-
-# Linux / macOS:
 ./solution
-`
-
----
-
-## 📂 Repository Structure
-
-`
-Strivers-A2Z-DSA-Sheet-C-Cpp/
-├── Step-01-Learn-the-basics/
-│   ├── 1.1-Things-to-Know-in-C-Cpp/
-│   ├── 1.2-Build-up-Logical-Thinking-Patterns/
-│   ├── 1.3-C++-STL-and-C-Basics/
-│   ├── 1.4-Know-Basic-Maths/
-│   │   ├── 01-count-digits/ (README.md, solution.c, solution.cpp)
-│   │   ├── 02-reverse-number/
-│   │   └── 04-gcd-or-hcf/
-│   ├── 1.5-Learn-Basic-Recursion/
-│   └── 1.6-Learn-Basic-Hashing/
-├── Step-02-Learn-Important-Sorting-Techniques/
-│   ├── 2.1-Sorting-I/ (Selection, Bubble, Insertion)
-│   └── 2.2-Sorting-II/ (Merge, Quick)
-├── Step-03-Solve-Problems-on-Arrays/
-│   ├── 3.1-Easy/ (Largest Element, etc.)
-│   ├── 3.2-Medium/ (Kadane's Algorithm, etc.)
-│   └── 3.3-Hard/
-└── ... (Steps 04 to 18)
 `
 
 ---
@@ -116,11 +77,10 @@ Strivers-A2Z-DSA-Sheet-C-Cpp/
 **Md Rakibul Islam (Baadal)**
 - 🌐 Portfolio: [baadaldev.github.io](https://baadaldev.github.io)
 - 🐙 GitHub: [@baadaldev](https://github.com/baadaldev)
-- 💼 LinkedIn: [Md Rakibul Islam](https://linkedin.com)
 - 📧 Email: [badolrakib1@gmail.com](mailto:badolrakib1@gmail.com)
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Licensed under the [MIT License](LICENSE).
