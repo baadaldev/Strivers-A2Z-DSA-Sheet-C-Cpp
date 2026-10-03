@@ -84,3 +84,6 @@ g++ -std=c++17 solution.cpp -o solution
 ## 📜 License
 
 Licensed under the [MIT License](LICENSE).
+
+## 💡 Contributing Solutions
+Feel free to submit clean, well-commented C++ implementations for pending DSA problems via PR.
